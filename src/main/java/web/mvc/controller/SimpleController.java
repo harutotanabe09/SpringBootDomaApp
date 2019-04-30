@@ -11,9 +11,9 @@ public class SimpleController {
   @Autowired
   OriginService originService;
 
-  /**
+  /*
    * RestAPI テストAPI
-   * 
+   *
    * @return String
    */
   @RequestMapping("/greeting")

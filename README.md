@@ -20,6 +20,22 @@ Eclipseに以下設定して自動整形する
 
 　→　保存時に選択したアクションを実行にチェックを入れる
 
+## 以前のアプリからの改善ポイント
+
+・application.properyでDomaの命名の設定をしている
+
+・@ConfigAutowireableで前にあった独自アノテーション廃止
+
+・＠EntityクラスにLombokのGetterとSetter入れることでFormatクラス不要にした
+
+・DomaのSQLをresource配下におくことで、コンパイルエラー解消
+
+
+
+
+
+
+
 
 
 
